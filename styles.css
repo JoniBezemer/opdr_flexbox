@@ -1,0 +1,108 @@
+body { 
+    color: #d9a774;
+    background-color: #232c27;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+    
+}
+
+.blue-border {
+    border: 3px solid #284854;
+    border-style: dotted;
+    padding-bottom: 5px;
+    padding-top: 4px;
+}
+
+nav {
+    color: #60747c;
+    text-decoration: none;
+}
+
+
+a{
+    color: #b8b8aa;
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+p{
+    color: #60747c;
+    padding: 1em;
+    text-align: center;
+}
+
+img{
+	border: 1px solid #999;
+	background-color: #60747c;
+    padding: 2px;
+}
+
+li{
+    display: inline;
+    padding: 1em;
+}
+
+
+form{ 
+   display: block; 
+}
+
+button{
+    color: #b8b8aa;
+    background-color: #284854;
+    margin-top: 15px;
+    
+}
+
+.button{
+    color: #b8b8aa;
+    background-color: #284854;
+    margin-top: 15px;
+}
+
+h1{
+    margin: 1em;
+}
+
+h3{
+    text-align: center;
+}
+
+img.align{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Painting img{
+    margin: em;
+}
+
+.blogpost { 
+    width: 400px; 
+    border: 1px solid black; 
+    display: flex;
+}
+
+.blogpost div{
+   flex-direction: column; 
+}
+
+.blogpost .blogpost2{
+    align-self: baseline;
+    flex-grow: 5;
+}
+
+@media (min-width: 1024px) {
+    body {background-color:#0a0c0b;}
+    p, h1 {color: aqua;}
+    p,h1 {font-size: 10px;}
+    p {line-height: 100px;}
+}
+
+
+
+
